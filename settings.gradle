@@ -1,0 +1,3 @@
+include ':kconnectioncheck'
+include ':app'
+rootProject.name = "KConnectionCheck"
