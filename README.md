@@ -19,7 +19,8 @@ allprojects {
 Add this to your app-level build.gradle
 ```gradle
 dependencies {
-	        implementation 'com.github.kaungkhantsoe:ABUtilLibrary:1.0.0'
+	       implementation 'com.github.kaungkhantsoe:KConnectionCheck:1.0.0'
+
 	}
 ```
 
