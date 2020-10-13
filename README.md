@@ -27,7 +27,7 @@ dependencies {
 # Usage
 Simple usage
 ``` java
- ABConnectionUtil.addConnectionCheck(this, this, this);
+ KConnectionCheck.addConnectionCheck(this, this, this);
 ```
 
 Customize build
