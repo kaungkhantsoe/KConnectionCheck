@@ -61,11 +61,13 @@ setNoConnectionText(String noConnectionText)
 setConnectionRestoredText(String connectionRestoredText)
 setNoConnectionDrawable(@DrawableRes int noConnectionDrawable)
 setConnectionRestoredDrawable(@DrawableRes int connectionRestoredDrawable)
-setHideWhenConnectionRestored(boolean hideWhenConnectionRestored) // Default is true
+hideWhenConnectionRestored(boolean hideWhenConnectionRestored) // Hide bottom snackbar on connection restored. Default is true
 setNoConnectionTextColor(@ColorInt int noConnectionTextColor)
 setConnectionRestoredTextColor(@ColorInt int connectionRestoredTextColor)
 setDismissTextColor(@ColorInt int dismissTextColor)
 setDismissText(String dismissText)
+showSnackOnStatusChange(boolean showSnackOnStatusChange) // Show bottom snackbar on connection change. Default is true
+setBottomNavigationView(@NonNull View bottomNavigationView); // Set BottomNavigationView for connection snack. Doesn't need this to set if 
 ```
 
 # Screen shots
