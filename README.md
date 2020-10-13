@@ -31,14 +31,14 @@ Simple usage
 
 Customize build
 ```java
-ABConnectionUtil.CustomConnectionBuilder builder = new ABConnectionUtil.CustomConnectionBuilder();
+KConnectionCheck.CustomConnectionBuilder builder = new KConnectionCheck.CustomConnectionBuilder();
         builder.setNoConnectionText("Custom No Connection Text");
         builder.setNoConnectionTextColor(getResources().getColor(android.R.color.holo_red_dark));
         builder.setNoConnectionDrawable(R.drawable.ic_no_connection);
         builder.setHideWhenConnectionRestored(false);
         builder.setDismissText("Close");
 
-ABConnectionUtil.addConnectionCheck(this,
+KConnectionCheck.addConnectionCheck(this,
                 this,
                 this,
                 builder
