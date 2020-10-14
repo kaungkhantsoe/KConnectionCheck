@@ -67,7 +67,7 @@ setConnectionRestoredTextColor(@ColorInt int connectionRestoredTextColor)
 setDismissTextColor(@ColorInt int dismissTextColor)
 setDismissText(String dismissText)
 showSnackOnStatusChange(boolean showSnackOnStatusChange) // Show bottom snackbar on connection change. Default is true
-setBottomNavigationView(@NonNull View bottomNavigationView); // Set BottomNavigationView for connection snack. Doesn't need this to set if 
+setBottomNavigationView(@NonNull View bottomNavigationView); // Set BottomNavigationView for connection snack.
 ```
 
 # Screen shots
